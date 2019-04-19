@@ -14,6 +14,7 @@
 		3D5500F622686056009504A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5500F422686056009504A4 /* LaunchScreen.storyboard */; };
 		3D5500FE22686081009504A4 /* DataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5500FD22686081009504A4 /* DataCenter.swift */; };
 		3D550100226869D0009504A4 /* PlayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5500FF226869CF009504A4 /* PlayerTableViewController.swift */; };
+		D6CE0C9C2269BF61009F1A33 /* PlayerDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CE0C9B2269BF61009F1A33 /* PlayerDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3D5500F722686056009504A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D5500FD22686081009504A4 /* DataCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCenter.swift; sourceTree = "<group>"; };
 		3D5500FF226869CF009504A4 /* PlayerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewController.swift; sourceTree = "<group>"; };
+		D6CE0C9B2269BF61009F1A33 /* PlayerDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				3D5500F222686056009504A4 /* Assets.xcassets */,
 				3D5500F422686056009504A4 /* LaunchScreen.storyboard */,
 				3D5500F722686056009504A4 /* Info.plist */,
+				D6CE0C9B2269BF61009F1A33 /* PlayerDetailController.swift */,
 			);
 			path = player;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				3D5500FE22686081009504A4 /* DataCenter.swift in Sources */,
 				3D5500EE22686053009504A4 /* ViewController.swift in Sources */,
 				3D550100226869D0009504A4 /* PlayerTableViewController.swift in Sources */,
+				D6CE0C9C2269BF61009F1A33 /* PlayerDetailController.swift in Sources */,
 				3D5500EC22686053009504A4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -80,14 +80,21 @@ class PlayerTableViewController: UITableViewController {
     }
     */
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        if segue.identifier == "DETAIL_SEGUE",
+            let detailVC = segue.destination as? PlayerDetailController,
+            let cell = sender as? UITableViewCell {
+            
+            let indexPath = tableView.indexPath(for: cell)!
+            let selectedPlayer = dataCenter.생존자목록[indexPath.row]
+            
+            detailVC.player = selectedPlayer
+        }
     }
-    */
 
 }
